@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Threading.Tasks;
-// What is .net doing to you?
-
+// I'm just trying to make a simple chat app using SignalR
 namespace ChatApp
 {
     public class ChatHub : Hub
@@ -70,3 +69,4 @@ namespace ChatApp
         }
     }
 }
+
